@@ -1,4 +1,6 @@
 def turn_count(board)
+  
+  
   empty_cells = 0
   board.each do |cell|
     if cell != 'X' && cell != 'O'
